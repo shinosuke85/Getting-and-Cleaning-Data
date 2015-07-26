@@ -34,16 +34,16 @@ To download and run the script run the following code in R, ensuring that the sc
 The cleaning script is called "run_analysis.R" and is saved in the main data folder described above.
 
 The script does the following:
-1. There are 8 different files that need to be read and transformed into data tables
-2. From these, 6 are merged into a single data set. Namely, 
+* There are 8 different files that need to be read and transformed into data tables
+* From these, 6 are merged into a single data set. Namely, 
         + the 2 files corresponding to the training and test measurements; 
         + the 2 files corresponding to the training and test activities, and
         + the 2 files corresponding to the subjects who performed each activity for the training and test sets.
-3. The "features.txt" file is used to name the columns of the merged dataset.
-4. Once merged, only the columns which correspond to the measurements on the mean and standard deviation are extracted.
-5. The activities performed by each subject are represented by numbers in the data set. The file "activity_labels.txt" is used to substitute the numbers for their corresponding descriptive labels (e.g. 1 substituted for WALKING)
-6. Descriptive names are given to each of the labels in the data set
-7. A new data set is created which contains the average of each variable in the clean dataset for each activity and each subject.
+* The "features.txt" file is used to name the columns of the merged dataset.
+* Once merged, only the columns which correspond to the measurements on the mean and standard deviation are extracted.
+* The activities performed by each subject are represented by numbers in the data set. The file "activity_labels.txt" is used to substitute the numbers for their corresponding descriptive labels (e.g. 1 substituted for WALKING)
+* Descriptive names are given to each of the labels in the data set
+* A new data set is created which contains the average of each variable in the clean dataset for each activity and each subject.
 
 A detailed description of the script run_analysis.R can be found here:
  [link to the readme document that describes the code in greater detail]()
